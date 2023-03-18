@@ -783,6 +783,16 @@ margin: 70px 0;
     .skills-section .image {
         display: none;
     }
+    .skills-section .container .skills {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media (max-width: 400px) {
+    .skills-section .container .skills {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 }
 /* .work sec  */
 .work {
@@ -1124,6 +1134,11 @@ margin: 70px 0;
     padding: 20px;
     background-color: white;
     margin: 0;
+}
+@media (max-width: 767px) {
+    .video .container {
+        grid-template-columns: repeat(auto-fill , minmax(350px , 1fr));
+    }
 }
 /* stats  */
 .stats {
